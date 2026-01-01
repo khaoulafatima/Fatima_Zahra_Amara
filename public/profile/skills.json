@@ -1,0 +1,83 @@
+{
+  "tech_skills": [
+    {
+      "category": "Programming languages",
+      "details": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Bash",
+        "R"
+      ]
+    },
+    {
+      "category": "Frameworks & libraries",
+      "details": [
+        "Django",
+        "FastAPI",
+        "ReactJS",
+        "Angular",
+        "Odoo",
+        "Pandas",
+        "Scikit-Learn"
+      ]
+    },
+    {
+      "category": "Frontend technologies",
+      "details": [
+        "HTML",
+        "CSS",
+        "Tailwind"
+      ]
+    },
+    {
+      "category": "DevOps & CI/CD",
+      "details": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "GitLab CI/CD",
+        "GitHub Actions",
+        "Git",
+        "Terraform",
+        "Ansible",
+        "Apache Airflow",
+        "SonarQube"
+      ]
+    },
+    {
+      "category": "Industrial communication",
+      "details": [
+        "Modbus TCP/IP",
+        "MMS-IEC 61850",
+        "LoRaWAN",
+        "6LoWPAN",
+        "BLE"
+      ]
+    },
+    {
+      "category": "Mobile developpement",
+      "details": [
+        "Flutter",
+        "Dart",
+        "Kotlin",
+        "Jetpack compose"
+      ]
+    }
+  ],
+  "soft_skills": [
+    {
+      "category": "Communication",
+      "details": "Translated complex technical requirements into actionable project milestones for non-technical stakeholders."
+    },
+    {"category": "Problem Solving",
+      "details": "Identified a recurring database latency issue and implemented a caching strategy that improved load times by 40%."
+    },
+    {"category": "Adaptability",
+      "details": "Successfully led a technology shift from Odoo to Angular/Django in 14 days, resulting in the on-time delivery of a bespoke dashboard for a high-profile client while meeting complex business needs."
+    },
+    {"category": "Collaboration",
+      "details": "Actively participated in Agile ceremonies (Daily Stand-ups, Sprint Planning, Retrospectives), fostering transparent communication and effectively reducing bottlenecks within the squad."
+    }
+  ]
+}

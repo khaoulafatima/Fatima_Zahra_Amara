@@ -1,0 +1,6 @@
+[
+  { "src": "/images/image_1.png", "width": 800, "height": 600 },
+  { "src": "/images/image_2.png", "width": 1600, "height": 900 },
+  { "src": "/images/image_3.png", "width": 600, "height": 400 },
+  { "src": "/images/image_4.png", "width": 800, "height": 900 }
+]

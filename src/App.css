@@ -1,0 +1,43 @@
+.gallery-container {
+  line-height: 0;
+  column-count: 5; /* On augmente le nombre de colonnes */
+  column-gap: 8px;  /* Espacement réduit pour un look plus "compact" */
+  padding: 10px;
+}
+
+.image-wrapper {
+  width: 100%;
+  margin-bottom: 8px; /* Espacement vertical réduit */
+  overflow: hidden;
+  border-radius: 4px; /* Coins plus discrets pour les petites images */
+  cursor: pointer;
+  background-color: #f0f0f0; /* Fond gris pendant le chargement */
+  
+  /* Animation d'entrée (Fade-in) */
+  animation: fadeIn 0.8s ease forwards;
+  opacity: 0;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Effet de zoom plus "propre" pour petites images */
+.image-wrapper:hover .gallery-img {
+  transform: scale(1.15);
+}
+
+/* Animation d'apparition */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Adaptation responsive */
+@media (max-width: 1200px) { .gallery-container { column-count: 4; } }
+@media (max-width: 800px) { .gallery-container { column-count: 3; } }
+@media (max-width: 480px) { .gallery-container { column-count: 2; } }

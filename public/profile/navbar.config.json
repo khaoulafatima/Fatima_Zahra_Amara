@@ -1,0 +1,19 @@
+{
+  "logo": {
+    "source": "/images/logo-Photoroom.png",
+    "height": 45,
+    "width": 50
+  },
+  "sections": [
+    { "title": "Home", "href": "/" },
+    { "title": "Experience", "href": "/experience" },
+    { "title": "Skills", "href": "/skills" },
+    { "title": "Projects", "href": "/projects" },
+    { "title": "About me", "href": "/about" },
+    {
+      "title": "Resume",
+      "href": "https://drive.google.com/file/d/1DXZnz1xmnWIGTwC0_MVurnvWIUauWRgZ/view",
+      "type": "link"
+    }
+  ]
+}

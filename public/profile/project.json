@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "title": "Cloud-Native Infrastructure Monitoring Platform",
+            "description": "Design and implementation of a cloud-native monitoring platform based on a microservices architecture. The application is containerized and deployed on a Kubernetes cluster, with automated infrastructure provisioning and configuration management. System and application metrics are collected and visualized in real time to monitor performance, availability, and resource usage.  This project demonstrates end-to-end DevOps practices, from infrastructure provisioning to monitoring and observability.",
+            "tools": ["Docker", "Kubernetes", "Terraform", "Ansible", "Grafana", "Prometheus"]
+        },
+        {
+            "title": "Automated CI/CD Platform for Microservices",
+            "description": "Implementation of a complete CI/CD pipeline for a microservices application, fully automated from code commit to production deployment. The platform uses containerization and Kubernetes deployment strategies, with infrastructure and environments provisioned automatically. This project focuses on deployment automation, reliability, and scalability in production environments.",
+            "tools": ["Docker", "Kubernetes", "Terraform", "Ansible", "Grafana", "GitLab CI/CD"]
+        },
+        {
+            "title": "Scalable IoT Data Processing and Monitoring Platform",
+            "description": "Development of a scalable platform for collecting, processing, and visualizing IoT sensor data in real time. The system is designed to handle large data volumes and ensure high availability using container orchestration and automated infrastructure management.  This project highlights advanced DevOps, Cloud, and IoT integration skills.",
+            "tools": ["Docker", "Kubernetes", "Terraform", "Ansible", "Grafana", "MQTT"]
+        },
+        {
+            "title": "Mobile Application for Freediving Training",
+            "description": "Development of a mobile training application for freedivers, integrating real-life simulation scenarios, connection to a Garmin smartwatch to track performance, and use of the phone’s accelerometer to detect movements and contractions.",
+            "tools": ["Flutter", "Dart", "Garmin Connect API", "Mobile Sensors"]
+        },
+        {
+            "title": "Dashboard for IoT Data Collection",
+            "description": "Development of a dashboard to aggregate data from IoT modules (MangOH), including device configuration, integration with a data retrieval API via Octave, and setup of an MQTT server using Node.js.",
+            "tools": ["Node.js", "MQTT", "Octave", "IoT Modules (MangOH)", "JavaScript", "HTML/CSS"]
+        },
+        {
+            "title": "Transport Data Analysis and Visualization (RATP)",
+            "description": "Cleaning and transforming CSV datasets, analyzing seasonal, monthly, and annual trends, spatial visualization of geographic flows using Leaflet, and creating two interactive dashboards (Shiny and Anvil versions).",
+            "tools": ["R", "Shiny", "Python", "Anvil", "Leaflet", "Pandas"]
+        },
+        {
+            "title": "Monthly Budget Tracking Dashboard",
+            "description": "Development of a monthly budget management dashboard allowing users to enter their starting balance at the beginning of the month and allocate amounts across expenses using either percentages or fixed amounts. The system helps manage salary, track savings (in cash or gold), review past months’ history, and generate an annual summary of actual revenues and expenditures.",
+            "tools": ["Angular", "Django", "Python", "HTML/CSS", "JavaScript"]
+        },
+        {
+            "title": "Restaurant Order Management System",
+            "description": "Development of a restaurant order management system allowing customers to scan a table’s QR code and submit their orders directly via a digital interface, streamlining the ordering process and improving service efficiency.",
+            "tools": ["Django", "Python", "JavaScript","ReactJS", "HTML/CSS", "QR Code Integration"]
+        },
+        {
+            "title": "Remote Radiology Interpretation Platform (Startup Project)",
+            "description": "Development of a platform connecting medical facilities or patients with certified radiologists for remote interpretation of imaging exams, including CT scans, MRIs, and X-rays. The platform enables: Medical centers without on-site radiologists to get scans interpreted quickly, Patients seeking a second opinion to upload their imaging exams securely. Radiologists registered on the platform to accept interpretation requests and provide detailed reports, This solution aims to improve access to specialized radiology expertise, reduce waiting times, and enhance diagnostic accuracy.",
+            "tools": ["Django", "React", "Python", "Secure File Upload", "User Authentication", "Cloud Storage", "Notification System"]
+        }
+    ]
+}

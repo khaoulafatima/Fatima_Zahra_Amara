@@ -1,0 +1,89 @@
+{
+    "experiences": [
+        {
+            "company": "EDF",
+            "period": "April 2025 - September 2025",
+            "contract": "Internship",
+            "logo": "/images/edf.png",
+            "missions": [
+                "Full-stack development of an interactive, real-time energy monitoring dashboard.",
+                "Architectural overhaul, transitioning the software from a monolithic model to a microservices architecture.",
+                "Implementation of ETL data pipelines, interfacing with external systems to aggregate heterogeneous data.",
+                "Automation of data flows and communication protocols between distributed components.",
+                "Development of technical scripts for Command and Control (C&C), streamlining the management and operation of industrial systems."
+            ],
+            "tools": [
+                "Python",
+                "ReactJs",
+                "FastAPI",
+                "Apache Airflow",
+                "AWS",
+                "MMS",
+                "WebSocket",
+                "GitLab"
+            ]
+        },
+        {
+            "company": "Gustave Eiffel University",
+            "period": "September 2024 - September 2025",
+            "contract": "Master 2 systems and services for IoT",
+            "logo": "/images/logo_ssio.png",
+            "missions": [
+                "To further strengthen my expertise in infrastructure management and deepen my understanding of the rapidly evolving Internet of Things (IoT) landscape, I enrolled in a Master’s program in Systems and Services for IoT. This program provided a rich combination of theoretical knowledge and practical, hands-on projects. I learned to design, manage, and secure complex IT and IoT infrastructures, develop scalable applications using microservices, and analyze large volumes of data collected from sensors and connected devices. I also gained experience programming microcontrollers and working with various communication networks, including cellular networks and IoT-specific networks."
+            ],
+            "tools": [
+                "DevOps",
+                "Machine learning",
+                "Microcontrollers",
+                "Cellular Networks and IoT-Specific Networks",
+                "Network Security",
+                "Infrastructure Management",
+                "Big Data & Sensor Data Analysis"
+            ]
+        },
+        {
+            "company": "FINOUTSOURCE",
+            "period": "September 2022 - September 2024",
+            "contract": "CDI",
+            "logo": "/images/Finoutsource.png",
+            "missions": [
+                "End-to-end development of a banking solution (workflow, scoring, financial analysis) leveraging OCR and Machine Learning models; deployed for Essalam Bank and Fransabank.",
+                "Automation of an industrial alerting system for critical equipment monitoring during a mission for Amimer Energie.",
+                "Development of a Sales Opportunity Management software for ICOSNET, featuring an integrated workflow linked to a dedicated invoicing module.",
+                "Full migration and redesign of an e-commerce platform from PrestaShop to Odoo eCommerce for a Swiss client, including custom store development and sales process integration.",
+                "Leading post-mission workshops and mentored new developers in Python and Odoo, notably for the APN project.",
+                "Mobile app development with Flutter, focused on budget and financial management for small businesses (SMEs)"
+            ],
+            "tools": [
+                "Python",
+                "Odoo",
+                "Django",
+                "Angular",
+                "Web Scraping",
+                "OCR",
+                "Rocky Linux",
+                "Docker",
+                "GitLab", 
+                "Flutter"
+            ]
+        },
+        {
+            "company": "ESI - Ecole Superieure en informatique",
+            "period": "September 2018 - September 2023",
+            "contract": "Engineering Degree in Computer Science",
+            "logo": "/images/ESI_Logo.png",
+            "missions": [
+                "During my five-year academic journey at ESI, I built a strong foundation in information systems and computer science, combining solid theoretical knowledge with hands-on experience through real-world projects. Throughout this journey, I worked on projects covering software development, information systems analysis, databases, decision support systems, and web and mobile applications. These projects allowed me to apply concepts such as software architecture, object-oriented programming, data modeling, system design, and project management in concrete and professional-like environments. This academic experience strengthened my ability to analyze complex problems, design efficient solutions, work in teams, and adapt quickly to new technologies, preparing me to contribute effectively in professional IT and engineering contexts."
+            ],
+            "tools": [
+                "IT Project Management",
+                "Mobile and Web Development",
+                "Decision Support Systems (SIAD)",
+                "Data Analysis & Data Science",
+                "Quality Assurance",
+                "Software Engineering",
+                "Network"
+            ]
+        }
+    ]
+}
