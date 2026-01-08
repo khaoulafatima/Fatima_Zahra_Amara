@@ -69,7 +69,7 @@ export default function NavAppBar() {
             <AppBar component="nav" sx={{ backgroundColor: colors.background }}>
                 <Toolbar>
                     <IconButton
-                        color="inherit"
+                        color="primary"
                         edge="start"
                         onClick={handleDrawerToggle}
                         sx={{ display: { sm: "none" }, mr: 2 }}
