@@ -1,0 +1,12 @@
+{
+  "education": [
+    {
+      "institution": "University of Bari",
+      "degree": "PhD in Computer Science",
+      "period": "2023 - Present",
+      "logo": "/images/university.png",
+      "courses": ["Knowledge Graphs", "Machine Learning"],
+      "skills": ["Python", "RDF", "SPARQL"]
+    }
+  ]
+}

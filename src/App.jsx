@@ -6,7 +6,8 @@ import AboutPage from "./pages/AboutPage";
 import SkillsPage from "./pages/SkillsPage";
 import ExperienceTimeline from "./pages/ExperiencePage";
 import ProjectsPage from "./pages/ProjectsPage";
-import GalleryPic from "./pages/LifeGallery";
+import EducationTimeline from "./pages/Education";
+
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="skills" element={<SkillsPage />} />
           <Route path="experience" element={<ExperienceTimeline />} />
           <Route path="projects" element={<ProjectsPage />} />
+           <Route path="education" element={<EducationTimeline />} />
         </Route>
       </Routes>
     </Router>

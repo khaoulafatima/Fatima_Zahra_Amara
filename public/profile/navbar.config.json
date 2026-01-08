@@ -1,18 +1,19 @@
 {
   "logo": {
-    "source": "/images/logo-Photoroom.png",
+    "source": "/images/picfati.png",
     "height": 45,
     "width": 50
   },
   "sections": [
     { "title": "Home", "href": "/" },
-    { "title": "Experience", "href": "/experience" },
+    { "title": "Work Experience", "href": "/experience" },
+    { "title": "Education", "href": "/education" },
     { "title": "Skills", "href": "/skills" },
-    { "title": "Projects", "href": "/projects" },
-    { "title": "About me", "href": "/about" },
+    { "title": "Publications", "href": "/publications" },
+    { "title": "Research", "href": "/research" },
     {
       "title": "Resume",
-      "href": "https://drive.google.com/file/d/1DXZnz1xmnWIGTwC0_MVurnvWIUauWRgZ/view",
+      "href": "https://drive.google.com/file/d/1WzV_8DUBvri8Oz8bu20x7yE_0_nRYJa0/view",
       "type": "link"
     }
   ]

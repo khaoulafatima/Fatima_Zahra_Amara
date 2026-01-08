@@ -1,88 +1,84 @@
-{
-    "experiences": [
-        {
-            "company": "EDF",
-            "period": "April 2025 - September 2025",
-            "contract": "Internship",
-            "logo": "/images/edf.png",
+{    "experiences": [
+       {"company": "Department of Computer Science, Universita degli Studi di Bari Aldo Moro, Bari, Italy",
+            "period": "April 11, 2025 - present",
+            "contract": "Research Fellow",
+           "logo": "/images/uniba.png",
+             "missions": [
+             "Project: Hybrid solutions for the creation, completion and refinement of Knowledge Graph.",
+             "Research Reference Project: FAIR (Future Artificial Intelligence Research), Spoke 6 (Symbiotic AI)"
+            ],
+  "tools": [
+                "Knowledge Graph Creation",
+                "Knowledge Graph Completion",
+                "Knowledge Graph Refinement",
+                "Hybrid AI Solutions",  
+                "Symbiotic AI"
+            ]},
+      {
+            "company": "Department of Computer Science, Universita degli Studi di Bari Aldo Moro, Bari, Italy",
+            "period": "July 8, 2024 - April 10, 2025",
+            "contract": "Research Fellow",
+              "logo": "/images/uniba.png",
             "missions": [
-                "Full-stack development of an interactive, real-time energy monitoring dashboard.",
-                "Architectural overhaul, transitioning the software from a monolithic model to a microservices architecture.",
-                "Implementation of ETL data pipelines, interfacing with external systems to aggregate heterogeneous data.",
-                "Automation of data flows and communication protocols between distributed components.",
-                "Development of technical scripts for Command and Control (C&C), streamlining the management and operation of industrial systems."
+                "Project: Models and methods for the creation of corpus in open format and knowledge discovery using hybrid approaches."
             ],
             "tools": [
-                "Python",
-                "ReactJs",
-                "FastAPI",
-                "Apache Airflow",
-                "AWS",
-                "MMS",
-                "WebSocket",
-                "GitLab"
+                "Knowledge Graph",
+                "Corpus Creation",
+                "Knowledge Discovery",
+                "Hybrid Methods",
+                "Ontology Engineering"
             ]
         },
         {
-            "company": "Gustave Eiffel University",
-            "period": "September 2024 - September 2025",
-            "contract": "Master 2 systems and services for IoT",
-            "logo": "/images/logo_ssio.png",
+            "company": "ShodhGuru Research Lab",
+            "period": "2022 - Present",
+            "contract": "Team Member",
+            "logo": "/images/labsh.png",
             "missions": [
-                "To further strengthen my expertise in infrastructure management and deepen my understanding of the rapidly evolving Internet of Things (IoT) landscape, I enrolled in a Master’s program in Systems and Services for IoT. This program provided a rich combination of theoretical knowledge and practical, hands-on projects. I learned to design, manage, and secure complex IT and IoT infrastructures, develop scalable applications using microservices, and analyze large volumes of data collected from sensors and connected devices. I also gained experience programming microcontrollers and working with various communication networks, including cellular networks and IoT-specific networks."
+               "Volenteering as a team member in ShodhGuru Research Lab, contributing to various research projects and initiatives."
             ],
             "tools": [
-                "DevOps",
-                "Machine learning",
-                "Microcontrollers",
-                "Cellular Networks and IoT-Specific Networks",
-                "Network Security",
-                "Infrastructure Management",
-                "Big Data & Sensor Data Analysis"
+                "Research Projects",
+                "Collaborative Research",
+                "Academic Writing"
             ]
         },
         {
-            "company": "FINOUTSOURCE",
-            "period": "September 2022 - September 2024",
-            "contract": "CDI",
-            "logo": "/images/Finoutsource.png",
+            "company": "Institute of Information Systems, University of Lubeck, Germany",
+            "period": "April 23 - Mai 7, 2023",
+            "contract": "Research Intern",
+            "logo": "/images/lubeck.png",
             "missions": [
-                "End-to-end development of a banking solution (workflow, scoring, financial analysis) leveraging OCR and Machine Learning models; deployed for Essalam Bank and Fransabank.",
-                "Automation of an industrial alerting system for critical equipment monitoring during a mission for Amimer Energie.",
-                "Development of a Sales Opportunity Management software for ICOSNET, featuring an integrated workflow linked to a dedicated invoicing module.",
-                "Full migration and redesign of an e-commerce platform from PrestaShop to Odoo eCommerce for a Swiss client, including custom store development and sales process integration.",
-                "Leading post-mission workshops and mentored new developers in Python and Odoo, notably for the APN project.",
-                "Mobile app development with Flutter, focused on budget and financial management for small businesses (SMEs)"
-            ],
+                       "Conducted research as part of my PhD thesis.",
+                       "Analyzed experimental results and prepared technical documentation to support thesis work.",
+                       "Collaborated with the research group to refine methodology and optimize semantic reasoning approaches."]  ,
             "tools": [
-                "Python",
-                "Odoo",
-                "Django",
-                "Angular",
-                "Web Scraping",
-                "OCR",
-                "Rocky Linux",
-                "Docker",
-                "GitLab", 
-                "Flutter"
+                "Knowledge Representation",
+                "Semantic Modeling",
+                "Ontology Engineering", 
+                "Reasoning & Inference",
+                "IoT (Internet of Things)"
             ]
         },
+
         {
-            "company": "ESI - Ecole Superieure en informatique",
-            "period": "September 2018 - September 2023",
-            "contract": "Engineering Degree in Computer Science",
-            "logo": "/images/ESI_Logo.png",
+            "company": "Department of Mathematics and Computer Science, Abbes Laghrour University Khenchela, Algeria",
+            "period": "November, 2019 - 2023",
+            "contract": "Temporary Lecturer",
+            "logo": "/images/khen.png",
             "missions": [
-                "During my five-year academic journey at ESI, I built a strong foundation in information systems and computer science, combining solid theoretical knowledge with hands-on experience through real-world projects. Throughout this journey, I worked on projects covering software development, information systems analysis, databases, decision support systems, and web and mobile applications. These projects allowed me to apply concepts such as software architecture, object-oriented programming, data modeling, system design, and project management in concrete and professional-like environments. This academic experience strengthened my ability to analyze complex problems, design efficient solutions, work in teams, and adapt quickly to new technologies, preparing me to contribute effectively in professional IT and engineering contexts."
+                "Delivered lectures and practical sessions.",
+                "Prepared course materials, lab exercises, and assignments to enhance learning.",
+                "Supervised student projects and evaluated coursework."
             ],
             "tools": [
-                "IT Project Management",
-                "Mobile and Web Development",
-                "Decision Support Systems (SIAD)",
-                "Data Analysis & Data Science",
-                "Quality Assurance",
-                "Software Engineering",
-                "Network"
+                "Human-Computer Interaction", 
+                "Machines Structure", 
+                "C Programming", 
+                "Database",
+                "Matlab Programming", 
+                "Java Programming"
             ]
         }
     ]

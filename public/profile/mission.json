@@ -1,11 +1,13 @@
 {
-    "name": "Tawous AMARA",
-    "profile": "Software engineer",
-    "missions": [
-        "I Develop complete frontend and backend solutions.",
-        "I Automate workflows to boost efficiency.",
-        "I Deploy and manage scalable infrastructures."
-    ],
-    "domains":["Backend & Frontend","Automation", "Devops"]
-
+"name": "Dr. Fatima Zahra Amara",
+"profile": "Ph.D. in Computer Science",
+"missions": [
+"I build and deploy intelligent, scalable systems for AI, Knowledge Graphs and data-intensive applications."
+],
+"domains":[
+"Knowledge Graphs & Semantic Web",
+"AI & Machine Learning Systems",
+"Data Engineering & Automation",
+"Scalable AI Infrastructures"
+]
 }
