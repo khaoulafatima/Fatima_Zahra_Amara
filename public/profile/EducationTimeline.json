@@ -1,12 +1,49 @@
 {
   "education": [
     {
-      "institution": "University of Bari",
-      "degree": "PhD in Computer Science",
-      "period": "2023 - Present",
-      "logo": "/images/university.png",
-      "courses": ["Knowledge Graphs", "Machine Learning"],
-      "skills": ["Python", "RDF", "SPARQL"]
+      "institution": "University of Abbas Laghrour, Khenchela, Algeria",
+      "degree": "PhD in Computer Science, Security and Web Technologies",
+      "period": "November 2019 - July 4, 2024",
+      "logo": "/images/khen.png",
+      "courses": ["Mention: With Honors"],
+      "links": [
+        {
+          "label": "Knowledge Representation in the Internet of Things: Semantic Modeling and Reasoning.",
+          "url": "https://www.researchgate.net/publication/387401460_Knowledge_Representation_in_the_Internet_of_Things_Semantic_Modeling_and_Reasoning"
+   }
+      ]
+    },
+
+    {
+      "institution": "University of Abbas Laghrour, Khenchela, Algeria",
+      "degree": "Master in Computer Science, Security and Web Technologies",
+      "period": "2016 - 2018",
+      "logo": "/images/khen.png",
+      "courses": ["Class: A (Top 10%)"],
+      "links": [
+        {
+          "label": "Semantic enrichment of sensor data, application to the meteorological domain.",
+          "url": "https://www.linkedin.com/in/fatimazahraamara/details/education/563596603/multiple-media-viewer/?profileId=ACoAACl4ExQBIvzqqLcla01fxfu8OF4dHIQNJ8E&treasuryMediaId=1635510096528"
+   }
+      ]
+    },
+
+      {
+      "institution": "University of Abbas Laghrour, Khenchela, Algeria",
+      "degree": "Bachelor in Computer Science, Computer Systems",
+      "period": "2013 - 2016",
+      "logo": "/images/khen.png",
+      "courses": ["Class: A (Top 10%)"],
+      "links": [
+        {
+          "label": "Conception and development of personnel management software for the University of Khenchela.",
+          "url": ""
+   }
+      ]
     }
+
+
+
   ]
 }
+  
