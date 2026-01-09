@@ -1,7 +1,275 @@
 {
-  "intro": "What truly drives me is curiosity, not just for the systems I build, but for the world that sustains us.",
-  
-  "middle": "When I’m not deep in technology, you’ll likely find me engaging in meaningful conversations about sustainable agriculture or the quiet art of traditional food preservation. Whether it’s swapping recipes for homemade preserves or learning the best way to sun-dry fruits, I see these exchanges as a vital way to connect with different cultures and honor our roots..",
-  
-  "end": "For me, building technology is no different from farming or slow-cooking: it requires patience, balance, and a deep sense of care. These interests ground my work, reminding me that the best solutions aren't just efficient, they are built to last and designed to create genuine value for the people who use them."
+  "publications": [
+    {
+      "title": "Automated Creation of a Legal Knowledge Graph Addressing Cases of Violence Against Women",
+      "authors": [
+        "Claudia D’Amato",
+        "Giuseppe Rubini",
+        "Francesco Didio",
+        "Donato Francioso",
+        "Fatima Zahra Amara",
+        "Nicola Fanizzi"
+      ],
+      "venue": "International Conference on Legal Knowledge and Information Systems (JURIX)",
+      "year": 2025,
+      "doi": "10.3233/FAIA251575",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://ebooks.iospress.nl/doi/10.3233/FAIA251575"
+        }
+      ]
+    },
+    {
+      "title": "A Bottom-Up Framework for Legal Knowledge Graph Construction: A Case Study on Gender-Based Violence",
+      "authors": [
+        "Claudia D’Amato",
+        "Giuseppe Rubini",
+        "Fatima Zahra Amara",
+        "Nicola Fanizzi"
+      ],
+      "venue": "International Knowledge Graph and Semantic Web Conference (KGSWC)",
+      "year": 2025,
+      "doi": "10.1007/978-3-032-13109-6_16",
+      "links": [ {
+          "label": "DOI",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-032-13109-6_16"
+        }]
+    },
+    {
+      "title": "Research Trends for the Interplay between Large Language Models and Knowledge Graphs",
+      "authors": [
+        "Hanieh Khorashadizadeh",
+        "Fatima Zahra Amara",
+        "Morteza Ezzabady",
+        "Frédéric Ieng",
+        "Sanju Tiwari",
+        "Nandana Mihindukulasooriya",
+        "Jinghua Groppe",
+        "Soror Sahri",
+        "Farah Benamara",
+        "Sven Groppe"
+      ],
+      "venue": "International Workshop on Data Management Opportunities in Unifying LLMs and Knowledge Graphs (VLDB Workshop)",
+      "year": 2024,
+      "doi": "10.48550/arXiv.2406.08223",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://ui.adsabs.harvard.edu/link_gateway/2024arXiv240608223K/doi:10.48550/arXiv.2406.08223"
+        }
+      ]
+    },
+    {
+      "title": "A Semantic AI Conceptual Prototype for the Semantic Cancer Knowledge Framework (SCKF)",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Mounir Hemam",
+        "Meriem Djezzar"
+      ],
+      "venue": "2nd International Workshop on Semantic IoT (CEUR)",
+      "year": 2023,
+      "doi": null,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ceur-ws.org/Vol-3638/SIoT_Paper1.pdf"
+        }
+      ]
+    },
+    {
+      "title": "Towards a Multi-Viewpoints Ontological Model for Knowledge Sharing in E-health",
+      "authors": [
+        "Meriem Djezzar",
+        "Mounir Hemam",
+        "Fatima Zahra Amara",
+        "Zianou Ahmed Seghir",
+        "Mohamed Madani Hafidi"
+      ],
+      "venue": "2nd International Workshop on Semantic IoT (CEUR)",
+      "year": 2023,
+      "doi": null,
+      "links": [{
+          "label": "PDF",
+          "url": "https://ceur-ws.org/Vol-3638/SIoT_Short1.pdf"
+        }]
+    },
+    {
+      "title": "Exploring the Determinants of Semantic Web of Things in Healthcare",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Sven Groppe",
+        "Sanju Tiwari",
+        "Mounir Hemam",
+        "Meriem Djezzar"
+      ],
+      "venue": "Roles and Challenges of Semantic Intelligence in Healthcare Cognitive Computing (Book Chapter)",
+      "year": 2024,
+      "doi": "10.3233/SSW230026",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://ebooks.iospress.nl/doi/10.3233/SSW230026"
+        }
+      ]
+    },
+    {
+      "title": "A Real-Time Semantic Based Approach for Modeling and Reasoning in Industry 4.0",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Meriem Djezzar",
+        "Mounir Hemam",
+        "Sanju Tiwari"
+      ],
+      "venue": "International Journal of Information Technology",
+      "year": 2023,
+      "doi": "10.1007/s41870-023-01640-w",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://link.springer.com/article/10.1007/s41870-023-01640-w"
+        }
+      ]
+    },
+    {
+      "title": "Unlocking the Power of Semantic Interoperability in Industry 4.0: A Comprehensive Overview",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Meriem Djezzar",
+        "Mounir Hemam",
+        "Sanju Tiwari",
+        "Mohamed Madani Hafidi"
+      ],
+      "venue": "Knowledge Graph and Semantic Web Conference (KGSWC)",
+      "year": 2023,
+      "doi": "10.1007/978-3-031-47745-4_7",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-031-47745-4_7"
+        }
+      ]
+    },
+    {
+      "title": "Semantic Web and Machine Learning Techniques Addressing Semantic Interoperability in Industry 4.0",
+      "authors": [
+        "Mohamed Madani Hafidi",
+        "Meriem Djezzar",
+        "Mounir Hemam",
+        "Fatima Zahra Amara",
+        "Moufida Maimour"
+      ],
+      "venue": "International Journal of Web Information Systems",
+      "year": 2023,
+      "doi": "10.1108/IJWIS-03-2023-0046",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://www.emerald.com/insight/content/doi/10.1108/IJWIS-03-2023-0046/full/html"
+        }
+      ]
+    },
+    {
+      "title": "E-Government Success: An End-User Perspective",
+      "authors": [
+        "Fernando Ortiz",
+        "Sanju Tiwari",
+        "Fatima Zahra Amara",
+        "Miguel A. Sahagun"
+      ],
+      "venue": "Global Perspectives on the Strategic Role of Marketing Information Systems (Book Chapter)",
+      "year": 2023,
+      "doi": "10.4018/978-1-6684-6591-2.ch010",
+      "links": [{
+          "label": "DOI",
+          "url": "https://www.igi-global.com/gateway/chapter/323278"
+        }]
+    },
+    {
+      "title": "Ontological Modeling of ERP for Industry 4.0",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Mounir Hemam",
+        "Tawous Amara",
+        "Meriem Djezzar"
+      ],
+      "venue": "1st International Workshop on Semantic IoT (CEUR)",
+      "year": 2022,
+      "doi": null,
+      "links": [{
+          "label": "PDF",
+          "url": "https://ceur-ws.org/Vol-3335/SIoT_short1.pdf"
+        }]
+    },
+    {
+      "title": "Semantic Web Approach for Smart Health to Enhance Patient Monitoring in Resuscitation",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Mounir Hemam",
+        "Meriem Djezzar",
+        "Moufida Maimour"
+      ],
+      "venue": "Tools, Languages, Methodologies for Representing Semantics on the Web of Things (Book Chapter)",
+      "year": 2022,
+      "doi": "10.1002/9781394171460.ch3",
+      "links": [{
+          "label": "DOI",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1002/9781394171460.ch3?utm_medium=article&utm_source=researchgate.net"
+        }]
+    },
+    {
+      "title": "Semantic Web and Internet of Things: Challenges, Applications and Perspectives",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Mounir Hemam",
+        "Meriem Djezzar",
+        "Moufida Maimour"
+      ],
+      "venue": "Journal of ICT Standardization",
+      "year": 2022,
+      "doi": "10.13052/jicts2245-800X.1029",
+      "links": [{
+          "label": "DOI",
+          "url": "https://journals.riverpublishers.com/index.php/JICTS/article/view/12911"
+        }]
+    },
+    {
+      "title": "Semantic Web Technologies for Internet of Things Semantic Interoperability",
+      "authors": [
+        "Fatima Zahra Amara",
+        "Mounir Hemam",
+        "Meriem Djezzar",
+        "Moufida Maimour"
+      ],
+      "venue": "International Conference on Information, Communication & Cybersecurity (ICI2C)",
+      "year": 2021,
+      "doi": "10.1007/978-3-030-91738-8_13",
+      "links": [  {
+          "label": "DOI",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-030-91738-8_13"
+        }]
+    },
+    {
+      "title": "An Approach for Semantic Enrichment of Sensor Data",
+      "authors": [
+        "Meriem Djezzar",
+        "Mounir Hemam",
+        "Moufida Maimour",
+        "Fatima Zahra Amara",
+        "Khaoula Falek",
+        "Zianou Ahmed Seghir"
+      ],
+      "venue": "International Conference on Pattern Analysis and Intelligent Systems (PAIS)",
+      "year": 2018,
+      "doi": "10.1109/PAIS.2018.8598506",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://ieeexplore.ieee.org/document/8598506"
+        }
+      ]
+    }
+  ]
 }
+
+

@@ -8,11 +8,13 @@
     { "title": "Home", "href": "/" },
     { "title": "Work Experience", "href": "/experience" },
     { "title": "Education", "href": "/education" },
-    { "title": "Publications", "href": "/publications" },
+    { "title": "Publications", "href": "/Publications" },
+    { "title": "Contact References", "href": "/contact" },
     {
       "title": "Resume",
       "href": "https://drive.google.com/file/d/1WzV_8DUBvri8Oz8bu20x7yE_0_nRYJa0/view",
       "type": "link"
-    }
+    },
+    {"title": "Fragments", "href": "/Fragments" }
   ]
 }

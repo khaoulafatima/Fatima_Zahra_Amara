@@ -43,6 +43,7 @@ export default function NavAppBar() {
                     height={navConfig.logo.height}
                     width={navConfig.logo.width}
                     alt="logo"
+                    href="/"
                 />
             </Box>
 

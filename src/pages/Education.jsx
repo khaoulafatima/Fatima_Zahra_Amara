@@ -7,7 +7,6 @@ import {
   Container,
   useMediaQuery,
   useTheme,
-  Link,
 } from "@mui/material";
 import { motion } from "framer-motion";
 import { colors } from "../styles/colors";
@@ -31,7 +30,7 @@ const EducationTimeline = () => {
   }, []);
 
   return (
-    <Container sx={{ my: { xs: 8, md: 12 } }}>
+    <Container maxWidth="md" sx={{ my: { xs: 6, md: 12 } }}>
       {/* Header */}
       <Typography
         variant="h4"
@@ -61,35 +60,44 @@ const EducationTimeline = () => {
             component={motion.div}
             whileHover={{ scale: 1.02 }}
             sx={{
-              p: 3,
+              p: { xs: 2, md: 3 },
               borderRadius: 3,
               display: "flex",
               flexDirection: { xs: "column", md: "row" },
-              alignItems: "center",
+              alignItems: { xs: "center", md: "flex-start" },
+              textAlign: { xs: "center", md: "left" },
               gap: 3,
               boxShadow: 3,
             }}
           >
             {/* Logo */}
-            <Box sx={{ flexShrink: 0 }}>
+            <Box
+              sx={{
+                flexShrink: 0,
+                display: "flex",
+                justifyContent: "center",
+                width: { xs: "100%", md: "auto" },
+              }}
+            >
               <Box
                 component="img"
                 src={edu.logo}
                 alt={edu.institution}
                 sx={{
-                  width: { xs: 80, md: 120 },
-                  height: { xs: 50, md: 60 },
+                  width: { xs: 70, sm: 90, md: 120 },
+                  height: "auto",
                   objectFit: "contain",
                 }}
               />
             </Box>
 
             {/* Content */}
-            <Box sx={{ flexGrow: 1 }}>
+            <Box sx={{ flexGrow: 1, width: "100%" }}>
               <Typography
                 variant="subtitle1"
                 fontWeight="bold"
                 color={colors.textLight}
+                sx={{ wordBreak: "break-word" }}
               >
                 {edu.degree}
               </Typography>
@@ -98,7 +106,12 @@ const EducationTimeline = () => {
                 {edu.institution}
               </Typography>
 
-              <Typography variant="caption" color="text.secondary" display="block" mb={1}>
+              <Typography
+                variant="caption"
+                color="text.secondary"
+                display="block"
+                mb={1}
+              >
                 {edu.period}
               </Typography>
 
@@ -113,9 +126,15 @@ const EducationTimeline = () => {
                 </Box>
               )}
 
-              {/* Links (e.g., PhD Thesis) */}
+              {/* Links */}
               {edu.links && (
-                <Box mt={1} display="flex" gap={1} flexWrap="wrap">
+                <Box
+                  mt={1}
+                  display="flex"
+                  gap={1}
+                  flexWrap="wrap"
+                  justifyContent={{ xs: "center", md: "flex-start" }}
+                >
                   {edu.links.map((link, i) => (
                     <Chip
                       key={i}
@@ -125,11 +144,11 @@ const EducationTimeline = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       clickable
+                      variant="outlined"
                       sx={{
                         color: colors.primary,
                         borderColor: colors.primary,
                       }}
-                      variant="outlined"
                     />
                   ))}
                 </Box>

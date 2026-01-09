@@ -1,0 +1,37 @@
+{
+  "title": "Fragments",
+  "subtitle": "This corner carries whispers of my world. Glimpses of thoughts, echoes of laughter, trails of places I’ve wandered. Not every story is spoken, some exist only in the quiet of being.",
+  "text": "Fatima is thoughtful and observant, attentive to the quiet details that give meaning to moments and places. She blends curiosity with creativity, moving naturally between reflection and action. Grounded yet evolving, she carries a calm strength shaped by learning, experience, and intention.",
+  "photos": [
+    {
+      "src": "/images/life/nature.jpg",
+      "label": "Nature & silence"
+    },
+    {
+      "src": "/images/life/books.jpg",
+      "label": "Reading & reflection"
+    },
+    {
+      "src": "/images/life/travel.jpg",
+      "label": "Exploring places"
+    },
+    {
+      "src": "/images/life/coffee.jpg",
+      "label": "Slow moments"
+    },
+    {
+      "src": "/images/life/coding.jpg",
+      "label": "Creating meaning"
+    }
+  ],
+  "hobbies": [
+    "Cooking",
+    "Photography",
+    "Nature walks",
+    "Reading",
+    "Writing",
+    "Travel",
+    "Quiet moments"
+  ],
+  "signature": "Beyond titles and roles, these are the moments that shape me."
+}

@@ -4,8 +4,9 @@ import Layout from "./components/Layout";
 import HomePage from "./pages/HomePage";
 import ExperienceTimeline from "./pages/ExperiencePage";
 import EducationTimeline from "./pages/Education";
-import Publications from "./pages/Publications";
-
+import Publications from "./pages/Publications";  
+import Contact from "./pages/contact";
+import Fragments from "./pages/Fragments";
 
 
 const App = () => {
@@ -17,7 +18,9 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="experience" element={<ExperienceTimeline />} />
            <Route path="education" element={<EducationTimeline />} />
-           <Route path="publication" element={<publications/>} />
+           <Route path="Publications" element={<Publications/>} />
+           <Route path="contact" element={<Contact/>} />    
+          <Route path="Fragments" element={<Fragments/>} />
         </Route>
       </Routes>
     </Router>

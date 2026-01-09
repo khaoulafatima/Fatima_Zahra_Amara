@@ -2,31 +2,31 @@ import React, { useEffect, useState } from "react";
 import {
   Paper,
   Typography,
-  Chip,
   Box,
   Container,
+  Chip,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
 import { motion } from "framer-motion";
 import { colors } from "../styles/colors";
 
-const Publications = () => {
+const PublicationsList = () => {
   const [publications, setPublications] = useState([]);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   useEffect(() => {
-    const fetchPublications = async () => {
+    const fetchPubs = async () => {
       try {
-        const response = await fetch("/profile/publications.json");
+        const response = await fetch("/profile/Publications.json");
         const data = await response.json();
-        setPublications(data.publications);
+        setPublications(data.publications || []);
       } catch (error) {
         console.error("Error loading publications:", error);
       }
     };
-    fetchPublications();
+    fetchPubs();
   }, []);
 
   return (
@@ -49,10 +49,10 @@ const Publications = () => {
         gutterBottom
         sx={{ fontWeight: "bold", fontStyle: "italic" }}
       >
-        Research contributions and academic work
+        Scholarly works and contributions
       </Typography>
 
-      {/* Publication Cards */}
+      {/* Publications Cards */}
       <Box display="flex" flexDirection="column" gap={5} mt={5}>
         {publications.map((pub, index) => (
           <Paper
@@ -62,44 +62,55 @@ const Publications = () => {
             sx={{
               p: 3,
               borderRadius: 3,
+              display: "flex",
+              flexDirection: "column",
+              gap: 1,
               boxShadow: 3,
             }}
           >
             {/* Title */}
-            <Typography
-              variant="subtitle1"
-              fontWeight="bold"
-              color={colors.textLight}
-              mb={0.5}
-            >
+            <Typography variant="subtitle1" fontWeight="bold" color={colors.textLight}>
               {pub.title}
             </Typography>
 
             {/* Authors */}
-            <Typography variant="body2" color="text.secondary">
-              {pub.authors.join(", ")}
-            </Typography>
+            {pub.authors && (
+              <Typography variant="body2" color="text.secondary">
+                {pub.authors.join(", ")}
+              </Typography>
+            )}
 
-            {/* Venue / Type / Year */}
-            <Typography
-              variant="caption"
-              color="text.secondary"
-              display="block"
-              mb={1}
-            >
-              {pub.type} • {pub.venue} • {pub.year}
-            </Typography>
+            {/* Venue */}
+            {pub.venue && (
+              <Typography variant="body2" color="text.secondary">
+                <strong>Venue:</strong> {pub.venue}
+              </Typography>
+            )}
 
-            {/* Abstract */}
-            {pub.abstract && (
-              <Typography variant="body2" mb={2}>
-                {pub.abstract}
+            {/* Year */}
+            {pub.year && (
+              <Typography variant="caption" color="text.secondary" display="block">
+                <strong>Year:</strong> {pub.year}
+              </Typography>
+            )}
+
+            {/* DOI */}
+            {pub.doi && (
+              <Typography variant="caption" color="text.secondary">
+                <strong>DOI:</strong>{" "}
+                <a
+                  href={`https://doi.org/${pub.doi}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {pub.doi}
+                </a>
               </Typography>
             )}
 
             {/* Links */}
-            {pub.links && (
-              <Box display="flex" gap={1} flexWrap="wrap">
+            {pub.links && pub.links.length > 0 && (
+              <Box mt={1} display="flex" gap={1} flexWrap="wrap">
                 {pub.links.map((link, i) => (
                   <Chip
                     key={i}
@@ -110,7 +121,10 @@ const Publications = () => {
                     rel="noopener noreferrer"
                     clickable
                     variant="outlined"
-                    sx={{ color: colors.primary }}
+                    sx={{
+                      color: colors.primary,
+                      borderColor: colors.primary,
+                    }}
                   />
                 ))}
               </Box>
@@ -122,4 +136,4 @@ const Publications = () => {
   );
 };
 
-export default Publications;
+export default PublicationsList;

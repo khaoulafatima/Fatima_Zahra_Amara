@@ -1,0 +1,22 @@
+{
+  "contact": [
+    {
+      "name": "Prof. Claudia d’Amato",
+      "title": "Associate Professor",
+      "affiliation": "University of Bari Aldo Moro, Italy",
+      "email": "claudia.damato@uniba.it"
+    },
+    {
+      "name": "Dr. Sanju Tiwari",
+      "title": "Professor",
+      "affiliation": "Sharda University, India, TIB Hannover, Germany",
+      "email": "tiwarisanju18@ieee.org"
+    },
+    {
+      "name": "Prof. Mounir Hemam",
+      "title": "Full Professor",
+      "affiliation": "Abbes Laghrour University, Khenchela, Algeria",
+      "email": "hemam.mounir@univ-khenchela.dz"
+    }
+  ]
+}
